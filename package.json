@@ -12,10 +12,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@notionhq/client": "^0.2.4",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "nuxt": "^2.15.7",
+    "prismjs": "^1.24.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
@@ -31,9 +35,11 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.12.1",
     "jest": "^27.0.5",
+    "nuxt-property-decorator": "^2.9.1",
     "nuxt-windicss": "^1.1.1",
     "prettier": "^2.3.2",
     "ts-jest": "^27.0.3",
-    "vue-jest": "^3.0.4"
+    "vue-jest": "^3.0.4",
+    "vue-notion": "^1.1.3"
   }
 }
